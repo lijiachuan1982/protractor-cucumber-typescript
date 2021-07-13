@@ -40,6 +40,7 @@ If you's like to know more about the underlying tools and technologies, continue
 
 ### Code structure
 
+```
 Root
 +-- .vscode
 | +-- settings.json    // VS Code settings about Cucumber support
@@ -59,6 +60,7 @@ Root
 +-- package.json
 +-- README.md
 +-- tsconfig.json      // Typescript configurations
+```
 
 ### What does the sample test do
 
