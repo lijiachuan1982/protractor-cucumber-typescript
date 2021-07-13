@@ -40,6 +40,26 @@ If you's like to know more about the underlying tools and technologies, continue
 
 ### Code structure
 
+Root
++-- .vscode
+| +-- settings.json    // VS Code settings about Cucumber support
++-- node_modules       // Dependencies installed by npm install
++-- outputjs           // Output folder stored compiled js files
++-- reports            // Cucumber html reports
++-- src                // Source code
+| +--features          // Cucumber features with Gherkin
+| +--pages             // Page objects
+| +--steps             // Step definitions
+| +--utils             // Utility functions
+| +--conf.ts           // Protractor and cucumber configuration
+| +--reporter.ts       // Cucumber report configurations and functions
+| +--timeout.ts        // Cucumber step timeout settings
+| +--typings.d.ts      // Typings for .json file to make it as test data
++-- testdata           // Json test data
++-- package.json
++-- README.md
++-- tsconfig.json      // Typescript configurations
+
 ### What does the sample test do
 
 The sample test has below three steps to conduct one search in baidu.com:
